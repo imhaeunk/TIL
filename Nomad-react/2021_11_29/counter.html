@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+  <body>
+    <div id="root"></div>
+  </body>
+  <script src="https://unpkg.com/react@17.0.2/umd/react.production.min.js"></script>
+  <script src="https://unpkg.com/react-dom@17.0.2/umd/react-dom.production.min.js"></script>
+  <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+  <script type="text/babel">
+    const root = document.getElementById("root")    
+    const App = () => {
+    //리액트의 useState라는 배열에서 첫번째 요소를 counter 두번째 함수를 setCounter라는 이름으로 사용할 것.
+      const [counter, setCounter] = React.useState(0)
+      const onClick = () => {
+      //setCounter는 첫번째 인수는 현재 값이다. 첫번째 방법과 동일하지만 두번째 방법이 더 안전하다.
+        //setCounter(counter + 1)
+        console.log(useState)
+        setCounter((current) => current +1)
+      }
+      return (
+        <div>
+          <h3>total Click :{counter}</h3>
+          <button onClick={onClick}>Click me</button>
+        </div>
+      )
+    }
+    
+    ReactDOM.render(<App />, root)
+  </script>
+</html>
