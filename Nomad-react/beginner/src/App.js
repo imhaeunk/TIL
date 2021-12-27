@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react'
+import CoinTracker from './CoinTracker'
 
 function App() {
   const [toDo, setToDo] = useState('')
@@ -34,6 +35,8 @@ function App() {
           <li key={i}>{todo}</li>
         ))}
       </ul>
+      <hr />
+      <CoinTracker />
     </div>
   )
 }
