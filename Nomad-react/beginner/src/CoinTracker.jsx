@@ -3,7 +3,7 @@ import React, { useEffect, useState } from 'react'
 const CoinTracker = () => {
   const [loading, setLoading] = useState(true)
   const [coins, setCoins] = useState([])
-  const [amount, setAmount] = useState('0')
+  const [amount, setAmount] = useState(0)
   const [select, setSelect] = useState('')
 
   useEffect(() => {
