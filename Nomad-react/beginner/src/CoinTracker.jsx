@@ -3,7 +3,7 @@ import React, { useEffect, useState } from 'react'
 const CoinTracker = () => {
   const [loading, setLoading] = useState(true)
   const [coins, setCoins] = useState([])
-  const [amount, setAmount] = useState(0)
+  const [amount, setAmount] = useState('0')
   const [select, setSelect] = useState('')
 
   useEffect(() => {
@@ -33,17 +33,25 @@ const CoinTracker = () => {
           />
           <span>to</span>
           <select
+            defaultValue={'DEFAULT'}
             onChange={e => {
               setSelect(e.target.value)
             }}
           >
+            <option value="DEFAULT" disabled>
+              Please Select
+            </option>
             {coins.map((coin, i) => (
               <option value={coin.quotes.USD.price} key={i}>
                 {coin.name}({coin.symbol}) : {coin.quotes.USD.price} USD
               </option>
             ))}
           </select>
-          <div>You can get {amount / select}</div>
+
+          <div>
+            {/* isFinite는 유한수일 경우 true, 무한대, 음의 무한대이면 false 반환  */}
+            You can get {isFinite(amount / select) ? amount / select : null}
+          </div>
         </>
       )}
     </div>
