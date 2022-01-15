@@ -1,16 +1,16 @@
-import { useState, useEffect } from 'react'
-import CoinTracker from './components/CoinTracker'
-import Todo from './components/Todo'
-import Movies from './components/Movies'
+import React from 'react'
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
+import Detail from './routes/Detail'
+import Home from './routes/Home'
 
 function App() {
   return (
-    <>
-      {/* <Todo />
-      <hr />
-      <CoinTracker /> */}
-      <Movies />
-    </>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/movie/:id" element={<Detail />}></Route>
+      </Routes>
+    </BrowserRouter>
   )
 }
 
