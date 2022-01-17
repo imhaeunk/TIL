@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.js": "/TIL/static/js/main.a85385e2.chunk.js",
-    "main.js.map": "/TIL/static/js/main.a85385e2.chunk.js.map",
-    "runtime-main.js": "/TIL/static/js/runtime-main.475357f5.js",
-    "runtime-main.js.map": "/TIL/static/js/runtime-main.475357f5.js.map",
-    "static/js/2.240f634c.chunk.js": "/TIL/static/js/2.240f634c.chunk.js",
-    "static/js/2.240f634c.chunk.js.map": "/TIL/static/js/2.240f634c.chunk.js.map",
-    "index.html": "/TIL/index.html",
-    "static/js/2.240f634c.chunk.js.LICENSE.txt": "/TIL/static/js/2.240f634c.chunk.js.LICENSE.txt"
+    "main.js": "/TIL/beginner/static/js/main.a85385e2.chunk.js",
+    "main.js.map": "/TIL/beginner/static/js/main.a85385e2.chunk.js.map",
+    "runtime-main.js": "/TIL/beginner/static/js/runtime-main.d364ba43.js",
+    "runtime-main.js.map": "/TIL/beginner/static/js/runtime-main.d364ba43.js.map",
+    "static/js/2.240f634c.chunk.js": "/TIL/beginner/static/js/2.240f634c.chunk.js",
+    "static/js/2.240f634c.chunk.js.map": "/TIL/beginner/static/js/2.240f634c.chunk.js.map",
+    "index.html": "/TIL/beginner/index.html",
+    "static/js/2.240f634c.chunk.js.LICENSE.txt": "/TIL/beginner/static/js/2.240f634c.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.475357f5.js",
+    "static/js/runtime-main.d364ba43.js",
     "static/js/2.240f634c.chunk.js",
     "static/js/main.a85385e2.chunk.js"
   ]
