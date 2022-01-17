@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.js": "/TIL/beginner/static/js/main.a85385e2.chunk.js",
-    "main.js.map": "/TIL/beginner/static/js/main.a85385e2.chunk.js.map",
+    "main.js": "/TIL/beginner/static/js/main.99b4f551.chunk.js",
+    "main.js.map": "/TIL/beginner/static/js/main.99b4f551.chunk.js.map",
     "runtime-main.js": "/TIL/beginner/static/js/runtime-main.d364ba43.js",
     "runtime-main.js.map": "/TIL/beginner/static/js/runtime-main.d364ba43.js.map",
     "static/js/2.240f634c.chunk.js": "/TIL/beginner/static/js/2.240f634c.chunk.js",
@@ -12,6 +12,6 @@
   "entrypoints": [
     "static/js/runtime-main.d364ba43.js",
     "static/js/2.240f634c.chunk.js",
-    "static/js/main.a85385e2.chunk.js"
+    "static/js/main.99b4f551.chunk.js"
   ]
 }
